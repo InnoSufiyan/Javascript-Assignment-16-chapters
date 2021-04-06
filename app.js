@@ -345,12 +345,120 @@
 
 // Question 5
 
-var password = "saylani123"
-var userPassword = prompt("Enter your Password to login")
+// var password = "saylani123"
+// var userPassword = prompt("Enter your Password to login")
 
-if(password==userPassword) {
-    
-}
+// if(userPassword=="" || userPassword==null) {
+//     alert("Please Enter Your Password")
+// } else if (userPassword==password) {
+//     alert("Your Password is Correct")
+// } else if (userPassword !== password) {
+//     alert("Incorrect Password")
+// }
+
+// Question 6
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// } else {
+// greeting = "Good evening";
+// }
+
+// Chapters 14 - 16
+
+// Question 1-7
+
+// var students = [];
+// var students = newArray();
+
+// var stringsArray = ["abc","def"];
+// var numArray = [1,2,3];
+// var booleanArray = [True,False];
+// var mixArray = [1,"a",True];
+// var Qualification = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.", "PhD"]
+
+// document.write(Qualification);
+
+
+// Question 8
+
+// var studentsName = ["Micheal", "John", "Tony"];
+// var studentsMarks = [320,230,480];
+
+// document.write("Score of " + studentsName[0] + " is " + studentsMarks[0] + ". Percentage:" + ((studentsMarks[0]/500)*100) + "<br>Score of " + studentsName[1] + " is " + studentsMarks[1] + ". Percentage:" + ((studentsMarks[1]/500)*100) + "<br>Score of " + studentsName[2] + " is " + studentsMarks[2] + ". Percentage:" + ((studentsMarks[2]/500)*100));
+
+// Question 9
+
+// var colorNames = ["green","blue"];
+// document.write(colorNames);
+
+// a
+
+// colorNames.unshift(prompt("Which color you want to add on start"));
+// document.write("<br>" + colorNames);
+
+// // b
+
+// colorNames.push(prompt("Which color you want to add on start"));
+// document.write("<br>" + colorNames);
+
+// // c
+
+// colorNames.unshift(prompt("Which color you want to add on start"));
+// document.write("<br>" + colorNames);
+
+// // d
+
+// colorNames.shift();
+// document.write("<br>" + colorNames);
+
+// // e
+
+// colorNames.pop();
+// document.write("<br>" + colorNames);
+
+// f
+
+// colorNames.splice(prompt("at which index you want to add your color") , 0 , prompt("which color you want to add"));
+// document.write("<br>" + colorNames);
+
+// g
+
+// colorNames.splice(prompt("from which index you want to delete colors") , prompt("how many colors you want to delete"));
+// document.write("<br>" + colorNames);
+
+// Question 10
+
+// var scoreOfStudents = [320,230,480,120];
+// scoreOfStudents.sort(function(a,b){return a-b});
+
+// Question 11
+
+// var citiesList = ["karachi", "Lahore", "Quetta", "Islamabad", "Peshawar"];
+// var selectedCitiesList = citiesList.slice(0,3);
+
+// Question 12
+
+// var myArray = ["this", "is", "my", "cat"];
+// var myString = myArray.join(" ");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
